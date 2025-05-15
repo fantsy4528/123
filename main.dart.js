@@ -68623,7 +68623,7 @@ s=1
 break}f=A.rs(n.y[a].as)
 e=A.rs(n.y[a].at)
 d=n.e
-m=A.eF("https://router.project-osrm.org/route/v1/driving/"+A.l(d.b)+","+A.l(d.a)+";"+A.l(e)+","+A.l(f)+"?overview=full&geometries=geojson")
+m=A.eF("http://router.project-osrm.org/route/v1/driving/"+A.l(d.b)+","+A.l(d.a)+";"+A.l(e)+","+A.l(f)+"?overview=full&geometries=geojson")
 p=4
 s=7
 return A.Q(A.aoN(m),$async$re)
