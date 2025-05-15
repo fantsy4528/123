@@ -68560,6 +68560,7 @@ g=t.a
 f=J.QA(h.a(B.b9.pB(n,null)),g)
 e=f.$ti.h("ab<ah.E,lJ>")
 e=o.r=A.W(new A.ab(f,new A.a5L(),e),!0,e.h("ai.E"))
+o.w=""
 m=0
 f=e.length
 d=o.f
@@ -68635,14 +68636,14 @@ for(d=J.b4(j);d.n();){h=d.gG()
 J.hu(i,new A.cN(J.afx(J.e4(h,1)),J.afx(J.e4(h,0))))}d=A.c([],t._6)
 n.Q=d
 d.push(new A.mP(i,4,B.di,t.QW))
-n.aH(new A.a5R())}else A.e3("OSRM API \u8acb\u6c42\u5931\u6557\uff0c\u72c0\u614b\u70ba: "+l.b+".")
+n.aH(new A.a5R())}else A.e3("OSRM API request failed with status: "+l.b+".")
 p=2
 s=6
 break
 case 4:p=3
 b=o.pop()
 g=A.a_(b)
-A.e3("\u5f9e OSRM API \u53d6\u5f97\u8def\u7531\u6642\u51fa\u932f: "+A.l(g))
+A.e3("Error fetching route from OSRM API: "+A.l(g))
 s=6
 break
 case 3:s=2
@@ -68716,7 +68717,7 @@ $0(){},
 $S:0}
 A.a5K.prototype={
 $2(a,b){var s=this.a,r=s.y[b]
-return new A.p0(A.a60(r.r,null),A.a60("\u5730\u5740:"+r.x+", \u8ddd\u96e2:"+B.c.V(r.ch,2)+" \u516c\u5c3a",null),new A.a5J(s,b),null)},
+return new A.p0(A.a60(r.r,null),A.a60("\u5730\u5740:"+r.x+", \u8ddd\u96e2:"+B.c.V(r.ch,2),null),new A.a5J(s,b),null)},
 $S:471}
 A.a5J.prototype={
 $0(){var s=0,r=A.P(t.H),q=this
